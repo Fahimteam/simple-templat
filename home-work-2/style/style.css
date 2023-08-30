@@ -49,6 +49,37 @@ li{
     width: 100vw;
     height: 600px;
     background-color: rgb(238, 160, 57);
+    background-image: url(../pexels-lumn-399161.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* object-fit: fill;
+    object-position: center; */
+}
+.box-container{
+    
+
+}
+.banner-titel{
+    text-align: center;
+    color: rgb(255, 98, 0);
+    padding-top: 30px;
+    font-size: 30px;
+
+}
+.banner-box{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: black;
+    display: inline-block;
+    margin: 100px 50px;
+}
+.banner-box img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    object-position: cover;
+    border-radius: 50px 5%;
 }
 .wellcome{
     background-color: rgb(243, 155, 155);
