@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgba(231, 231, 9, 0.873);
+  
+}
+.nav-bar{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 100px;
+    background-color: rgb(165, 216, 115);
+    background-color: transparent;
+  
+}
+.nav-bar ul{
+    display: flex;
+    align-items: center;
+}
+.nav-bar li{
+    list-style: none;
+    margin-left:20px;
+    font-size: 30px;
+}
+.nav-bar li:nth-child(4){
+    margin-left: 50px;
+}
+.logo-img{
+    font-size: 45px;
+}
+.search-container{
+    border: none;
+    display: flex;
+    align-items: center;
+}
+ input::placeholder{
+    font-size: 20px;
+    color: #fff;
+}
+.search-container input{
+    background-color: rgb(158, 158, 164);
+    border: 0;
+    padding: 10px 20px;
+}
+.icon{
+    width: 50px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+}
+/* banner */
+.benner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 100px;
+    align-items: center;
+}
+.banner-description{
+    width: 50%;
+}
+.banner-img{
+    width: 50%;
+}
+
+.banner-title{
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 20px;
+
+}
+.banner-sub-title{
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 20px;
+
+}
+.banner-btn{
+    border: 0;
+    background-color: aquamarine;
+    padding: 10px 15px;
+    border-radius: 5px;
+     font-size: 20px;
+     margin-right: 20px;
+}
+.banner-secoend-btn{
+    border: 1px solid white;
+    padding:10px 15px ;
+    background-color: rgba(231, 231, 9, 0.873);
+    color: white;
+    font-size: 20px;
+}
+.animals{
+ display: flex;
+ justify-content: space-between;
+ margin: 100px  100px;
+ align-items: center;
+}
+.animals-description{
+    width: 50%;
+
+}
+.animals-title{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: black;
+    line-height: 1em;
+}
+.animals-sub-description{
+    font-size: 30px;
+    margin-bottom: 20px;
+
+}
+.animal-btn{
+    border: none;
+    padding: 10px 15px;
+    background-color: rgb(231, 231, 21);
+    color: #fff;
+    font-size: 20px;
+}
+.animals-img{
+    width: 50%;
+    position: relative;
+
+}
+.animals-img img{
+    /* width: 300px;
+    height: 300px; */
+}
+.back-box{
+    height: 180px;
+    width: 250px;
+    border: 1px solid yellow;
+    position: absolute;
+    z-index: -1;
+    bottom: -60px;
+    left: -130px;
+    background-color: yellow;
+}
